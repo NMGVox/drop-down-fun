@@ -102,6 +102,7 @@ body {
     flex-shrink: 1;
     display:flex;
     align-items: center;
+    padding-left: 1rem;
 }
 
 .drop-item:hover {
