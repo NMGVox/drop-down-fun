@@ -81,3 +81,33 @@ body {
     flex-basis: 80%;
     flex-grow: 2;
 }
+
+.drop-down-container {
+    display:flex;
+    flex-direction: column;
+    height:0;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 2s;
+}
+
+.drop-down-container.visible {
+    height:20vh;
+}
+
+.drop-item {
+    flex-basis: 20%;
+    flex-shrink: 1;
+    display:flex;
+    align-items: center;
+}
+
+.drop-item:hover {
+    background-color: cornsilk;
+}
+
+.drop-item:not(:last-child) {
+    border-bottom: 2px solid black;
+}
