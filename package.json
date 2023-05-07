@@ -1,0 +1,30 @@
+{
+  "name": "drop-down-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMGVox/drop-down-fun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NMGVox/drop-down-fun/issues"
+  },
+  "homepage": "https://github.com/NMGVox/drop-down-fun#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.14.0"
+  }
+}
